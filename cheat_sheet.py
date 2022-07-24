@@ -85,3 +85,26 @@ alien = {'color': 'red', 'points': 5}
 
 # (16) Get value from dictionary.
 print("The alien's color is " + alien['color'])
+
+alien['foo'] = 42
+
+xx = {'eric': 17, 'ever': 4}
+for name, number in xx.items():
+    print(name + ' loves a number ' + str(number))
+for name in xx.keys():
+    print(name + ' --> ')
+for n in xx.values():
+    print(str(n) + ' is a favourite number.')
+
+# (17) User input.
+my_name = input("\nWhat's your name?\n")
+print('Hello, ' + my_name)
+
+my_age = input('\nHow old are you?\n')
+my_age = int(my_age)
+
+my_grade = input('\nWhat is your grade?\n')
+my_grade = int(my_grade)
+
+temp = input('\nWhat is your body\'s temperature?\n')
+pi = float(temp)
